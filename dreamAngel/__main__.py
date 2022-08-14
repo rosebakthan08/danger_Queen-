@@ -89,7 +89,7 @@ i am only pro bot of tamil users❤
 
 SAITAMA_IMG = "https://telegra.ph/file/ad8b3c54bf7b202f7a07f.jpg"
 
-DONATE_STRING = """Heya, glad to hear you want to donate for developer. This bot runs on heroku so bot slow down some times and developer cannot add more modules due to heroku can't run them.\n\nBetter if my developer recieved a VPS to run the bot. Contact him and help him to continue this.\n\nDeveloper: [DANGER BOTS](t.me/DANGER_BOTS)"""
+DONATE_STRING = """Heya, glad to hear you want to donate for developer. This bot runs on heroku so bot slow down some times and developer cannot add more modules due to heroku can't run them.\n\nBetter if my developer recieved a VPS to run the bot. Contact him and help him to continue this.\n\nDeveloper: [DANGER BOTS](t.me/dragadm)"""
 
 IMPORTED = {}
 MIGRATEABLE = []

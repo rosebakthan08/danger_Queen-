@@ -9,8 +9,8 @@ Powerful Abilities*
 
 • Youtube Downloader 🎵
 
-Developer ꧁𝄇𖤓࿈കൃഷ്ണതുളസ᭄🌙⸙ꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋ࿈𖤓𝄆꧂
+Developer dragadm
 
-Github [സഖാവ് വാവ](https://github.com/sakhaavvaavaj93)"""
+Github [dragadm](https://github.com/rosebakthan08)"""
 
 __mod_name__ = "About"

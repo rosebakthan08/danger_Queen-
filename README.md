@@ -1,11 +1,11 @@
-![Queen](https://telegra.ph/file/f460b2c37baa012bd6f7f.png)
-# queen
+![tezza](https://telegra.ph/file/1d78e9372ce3cb8149023.jpg)
+# TEZZA
 
 A Telegram Python bot running on python3 forked with saitama with a sqlalchemy database and an entirely themed persona to make fun and good management for you in your groups.
 
-Can be found on telegram as [Dangerbots](https://t.me/dangerbots)
+Can be found on telegram as [dragadm](https://t.me/dragadm)
 
-My dev [kid](https://t.me/danger_of_telegram)
+My dev [kindi](https://t.me/dragadm)
 
 ## How to setup or deploy
 

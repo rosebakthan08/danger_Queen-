@@ -21,7 +21,7 @@ from dreamAngel.modules.log_channel import loggable
 
 def check_user(user_id: int, bot: Bot, chat: Chat) -> Optional[str]:
     if not user_id:
-        reply = "You don't seem to be referring to a user or the ID specified is incorrect.."
+        reply = "You don't seem to be referring to a user or the ID specified is incorrect🙆.."
         return reply
 
     try:
@@ -34,7 +34,7 @@ def check_user(user_id: int, bot: Bot, chat: Chat) -> Optional[str]:
             raise
 
     if user_id == bot.id:
-        reply = "I'm not gonna MUTE myself, How high are you?"
+        reply = "I'm not gonna MUTE myself, How high are 🤦you?"
         return reply
 
     if is_user_admin(chat, user_id, member) or user_id in TIGERS:
@@ -87,7 +87,7 @@ def mute(update: Update, context: CallbackContext) -> str:
         return log
 
     else:
-        message.reply_text("This user is already muted!")
+        message.reply_text("This user is already muted🤦!")
 
     return ""
 
@@ -106,7 +106,7 @@ def unmute(update: Update, context: CallbackContext) -> str:
     user_id = extract_user(message, args)
     if not user_id:
         message.reply_text(
-            "You'll need to either give me a username to unmute, or reply to someone to be unmuted."
+            "You'll need to either give me a username to unmute, or reply to someone to be unmuted💆."
         )
         return ""
 
@@ -252,5 +252,5 @@ dispatcher.add_handler(MUTE_HANDLER)
 dispatcher.add_handler(UNMUTE_HANDLER)
 dispatcher.add_handler(TEMPMUTE_HANDLER)
 
-__mod_name__ = "Muting 🔇"
+__mod_name__ = "Muting"
 __handlers__ = [MUTE_HANDLER, UNMUTE_HANDLER, TEMPMUTE_HANDLER]

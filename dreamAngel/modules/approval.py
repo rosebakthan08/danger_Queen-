@@ -34,18 +34,18 @@ def approve(update, context):
         return ""
     if member.status == "administrator" or member.status == "creator":
         message.reply_text(
-            "User is already admin - locks, blocklists, and antiflood already don't apply to them."
+            "User is already admin - locks, blocklists, and antiflood already don't apply to them❕."
         )
         return ""
     if sql.is_approved(message.chat_id, user_id):
         message.reply_text(
-            f"[{member.user['first_name']}](tg://user?id={member.user['id']}) is already approved in {chat_title}",
+            f"[{member.user['first_name']}](tg://user?id={member.user['id']}) is already approved🔓 in {chat_title}",
             parse_mode=ParseMode.MARKDOWN,
         )
         return ""
     sql.approve(message.chat_id, user_id)
     message.reply_text(
-        f"[{member.user['first_name']}](tg://user?id={member.user['id']}) has been approved in {chat_title}! They will now be ignored by automated admin actions like locks, blocklists, and antiflood.",
+        f"[{member.user['first_name']}](tg://user?id={member.user['id']}) has been approved in {chat_title}! They will now be ignored by automated admin actions like locks🔒, blocklists🪦, and antiflood📢.",
         parse_mode=ParseMode.MARKDOWN,
     )
     log_message = (
@@ -225,6 +225,6 @@ dispatcher.add_handler(APPROVAL)
 dispatcher.add_handler(UNAPPROVEALL)
 dispatcher.add_handler(UNAPPROVEALL_BTN)
 
-__mod_name__ = "Approval ✅"
+__mod_name__ = "Approval 💡"
 __command_list__ = ["approve", "unapprove", "approved", "approval"]
 __handlers__ = [APPROVE, DISAPPROVE, APPROVED, APPROVAL]

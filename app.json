@@ -1,6 +1,6 @@
 {
-      "name": "dreamAngel Bot",
-      "logo":"https://telegra.ph/file/86bc4072a903797c1262f.jpg",
+      "name": "tezza",
+      "logo":"https://telegra.ph/file/1d78e9372ce3cb8149023.jpg",
       "description": "An Anime themed Telegram group management bot.",
       "keywords": [
          "telegram",
@@ -9,11 +9,11 @@
          "manager",
          "Saitama"
       ],   
-   "repository": "https://github.com/dangerbots/danger_Queen-",
+   "repository": "https://github.com/rosebakthan08/danger_Queen-",
    "addons": [
       {
          "options": {
-            "version": "12"
+            "version": "14"
          },
          "plan": "heroku-postgresql"
       }

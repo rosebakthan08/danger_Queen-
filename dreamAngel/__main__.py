@@ -76,20 +76,20 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = "Hi {}, my name is {} 👸\n\n One of the Most Powerfull Telegram ProBot to Manage Your Groups,feel free to add to your groups And mainly Created for Tamil users  Many Tamil Fun Tools are there You can check with /help "
+PM_START_TEXT = "Hi {}, my name is {} 👸\n\n One of the Most Powerfull Telegram ProBot to Manage Your Groups,feel free to add to your groups And mainly Created for Legends  Many Fun Tools are there You can check with /help "
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
-i am only pro bot of tamil users❤
+i am only work for legends❤
 {}
 """.format(
     dispatcher.bot.first_name,
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !\n",
 )
 
-SAITAMA_IMG = "https://telegra.ph/file/ad8b3c54bf7b202f7a07f.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/1d78e9372ce3cb8149023.jpg"
 
-DONATE_STRING = """Heya, glad to hear you want to donate for developer. This bot runs on heroku so bot slow down some times and developer cannot add more modules due to heroku can't run them.\n\nBetter if my developer recieved a VPS to run the bot. Contact him and help him to continue this.\n\nDeveloper: [DANGER BOTS](t.me/dragadm)"""
+DONATE_STRING = """Heya, glad to hear you want to donate for developer. This bot runs on heroku so bot slow down some times and developer cannot add more modules due to heroku can't run them.\n\nBetter if my developer recieved a VPS to run the bot. Contact him and help him to continue this.\n\nDeveloper: [owner](t.me/dragadm)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -207,7 +207,7 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="➕ Add ME",
-                                url="t.me/isaiminibot?startgroup=true".format(
+                                url="t.me/Misstezza_bot?startgroup=true".format(
                                     context.bot.username
                                 ),
                             )
@@ -219,12 +219,12 @@ def start(update: Update, context: CallbackContext):
                             ),
                             InlineKeyboardButton(
                                 text="founder",
-                                url="https://t.me/Marinemafiya",
+                                url="https://t.me/dragadm",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
-                                text= "Dev", url="https://t.me/Danger_bots"
+                                text= "Dev", url="https://t.me/rosebakthan"
                             ),
                         ],
                     ]

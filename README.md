@@ -17,6 +17,6 @@ My dev [kid](https://t.me/danger_of_telegram)
 ## How to setup on Heroku 
 For starters click on this button 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/dangerbots/danger_Queen-) 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/rosebakthan08/danger_Queen-) 
 
 
